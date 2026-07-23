@@ -32,8 +32,8 @@ import tea "github.com/charmbracelet/bubbletea"
 import "github.com/charmbracelet/lipgloss"
 
 // After
-import tea "charm.land/bubbletea/v2"
-import "charm.land/lipgloss/v2"
+import tea "github.com/labyla/bubbletea"
+import "github.com/labyla/lipgloss"
 ```
 
 ## The Big Idea: Declarative Views
@@ -410,7 +410,7 @@ import (
     "fmt"
     "os"
 
-    tea "charm.land/bubbletea/v2"
+    tea "github.com/labyla/bubbletea"
 )
 
 type model struct {
@@ -464,8 +464,8 @@ A flat old → new lookup table. Handy for search-and-replace and LLM-assisted m
 
 | v1 | v2 |
 |---|---|
-| `github.com/charmbracelet/bubbletea` | `charm.land/bubbletea/v2` |
-| `github.com/charmbracelet/lipgloss` | `charm.land/lipgloss/v2` |
+| `github.com/charmbracelet/bubbletea` | `github.com/labyla/bubbletea` |
+| `github.com/charmbracelet/lipgloss` | `github.com/labyla/lipgloss` |
 
 ### Model Interface
 
