@@ -1,7 +1,5 @@
 module github.com/labyla/bubbletea
 
-retract v2.0.0-beta1 // We add a "." after the "beta" in the version number.
-
 go 1.25.0
 
 require (
